@@ -4,6 +4,8 @@ public class Exercise08 {
 
     public static void main(String[] args) {
 
+        whileLoop(7);
+
     }
 
     //TODO ↓
@@ -12,6 +14,17 @@ public class Exercise08 {
     // X+1 < Y. El próximo ciclo valdrá: X+2
     // etc.
     public static void whileLoop(int num) {
+            int x = 0;
+
+            while(x<num){
+                x++;
+
+                if(x<num) {
+                    System.out.println(x + " < " + num + ". El proximo ciclo valdra: " + (x + 1));
+                }
+
+            }
+
 
     }
 }
